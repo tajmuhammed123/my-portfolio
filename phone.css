@@ -1,0 +1,56 @@
+#home{
+    height: 765px;
+}
+.headings{
+    font-size: 1.7rem;
+}
+#pic img{
+    width: 300px;
+    height: 300px;
+}
+#intro h2{
+    font-size: 1.5rem;
+}
+.gallery img{
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 20%;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('My Photo1.jpg') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+#experience::before{
+    content: "";
+    position: absolute;
+    background: url('bg0.jpg') no-repeat center center/cover;
+    height: 1590px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+#about::before{
+    content: "";
+    position: absolute;
+    background: url('aboutme1.jpg') no-repeat center center/cover;
+    height: 750px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
